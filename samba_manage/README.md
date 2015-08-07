@@ -29,8 +29,8 @@
     op: mod
     username: chen
     dir:
-      /feiyin: r-x
-      /feiyin/cai: rwx
+      /fei: r-x
+      /fei/cai: rwx
     user_mail: chen@xx.com
 
 #### userconf.yaml
