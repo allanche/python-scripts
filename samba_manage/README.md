@@ -7,22 +7,21 @@
 (需要vpn且添加账号的书写形式)
 
     name.yaml
-    
-	companyname_area:                      #此处为对应的一级目录名
-    op: add                              #此处为对账号执行的操作：1.添加-add,2.删除-del，3.修改-mod
-    username: yz                         #账号名
-    passwd: none                         #密码项，只有添加账号需要此项，删除和修改不需要可删除此项
-    dir:                                 #目录项，dir不可改
-      /xxx: r-x                       #设置二级目录权限，一级目录也需要设置权限
+	companyname_area:                     此处为对应的一级目录名
+    op: add                              此处为对账号执行的操作：1.添加-add,2.删除-del，3.修改-mod
+    username: yz                         账号名
+    passwd: none                         密码项，只有添加账号需要此项，删除和修改不需要可删除此项
+    dir:                                 目录项，dir不可改
+      /xxx: r-x                       设置二级目录权限，一级目录也需要设置权限
       /fex/cai: rwx
-    user_mail: xxyy@mail.com   #对方的邮箱
-    vpn:                                 #VPN项
-      vpn_account: 1234                  #账号
-      vpn_pass: axax                     #密码
-    companyname_area:                      #删除操作
+    user_mail: xxyy@mail.com   对方的邮箱
+    vpn:                                 VPN项
+      vpn_account: 1234                  账号
+      vpn_pass: axax                     密码
+    companyname_area:                      删除操作
     op: del
     username: hy
-    companyname_area:                      #修改操作
+    companyname_area:                      修改操作
     op: mod
     username: chen
     dir:
@@ -33,7 +32,7 @@
 	userconf.yaml
 	mail: 
 	password: 
-	file name:                     #注意空格
+	file name:                     注意空格
 
 
 * 密码无需手动生成，脚本里有函数生成然后写入name.yaml里，添加账号时你只需在add操作项里添加  passwd: none这么写即可。
