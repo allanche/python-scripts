@@ -1,0 +1,15 @@
+server_configure:
+  ip_address: 192.168.9.118
+  socket: 10001
+source_dir:
+  - /data/sh
+dest_dir:
+  - /root
+mysql_config:
+  user:
+  password:
+  socket:
+  port:
+  hostname:
+
+

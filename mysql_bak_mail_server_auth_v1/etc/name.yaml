@@ -1,0 +1,11 @@
+sendmail_configure:
+  mail_host: smtp.exmail.qq.com
+  mail_user: chenyongzhi@forgame.com
+  mail_pass: Cyz1992717
+  mail_postfix: qq.com
+server_configure:
+  ip_address: 192.168.9.118
+  socket: 10001
+mailto_list:
+#  - chenyongzhi@forgame.com
+  - chenyongzhi233@163.com
