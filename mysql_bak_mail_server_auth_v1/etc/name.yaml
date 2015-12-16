@@ -1,0 +1,10 @@
+sendmail_configure:
+  mail_host: smtp.exmail.qq.com
+  mail_user:
+  mail_pass:
+  mail_postfix: qq.com
+server_configure:
+  ip_address:
+  socket: 10001
+mailto_list:
+  - xx@xx.com
