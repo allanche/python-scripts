@@ -75,9 +75,10 @@ class Mail_get(Yamlconf, getTime):
 
     def mail_html(self, current):  # 利用django template构造邮件html
         #        errLog = savelog(self.BASE_DIR+'/log/server')
-        print self.endinfo
+        print "mail_html self.endinfo %s" % self.endinfo
         p = Path_change()
         try:
+
 
             source_html = u'''
            <!DOCTYPE html>
@@ -97,7 +98,7 @@ class Mail_get(Yamlconf, getTime):
 
                     {% for name in name_list %}
                         {% if name|last == 'T' %}
-                            <p>  information: {{ name|cut:"T" }} </p>
+                            <p> information: {{ name|cut:"T" }} </p>
                         {% else %}
                             <p style="color:#ff0000">  warnning: {{ name|cut:"F" }} </p>
                         {% endif %}
@@ -110,7 +111,9 @@ class Mail_get(Yamlconf, getTime):
             # source_html = get_template(p.gain_profilePath()+'/lib/test.html')
             f = Template(source_html)
             function_var = self.endinfo[0].split(' ')[-1]
-            mail_var = [' '.join(self.endinfo[0].split(' ')[0:-2])]  # 传进去的是一个['xx']包裹的列表
+            mail_var = [' '.join(self.endinfo[0].split(' ')[0:-1])]  # 传进去的是一个['xx']包裹的列表
+            print "mail_html function_var:%s" % function_var
+            print "mail_html mail_var:%s" % mail_var
 
             # 通过功能标志来确定邮件标题模板
             if function_var == '1':
@@ -155,6 +158,8 @@ class Mail_get(Yamlconf, getTime):
             self.info = auth.deserver
             del auth.deserver
             self.info = self.info.strip('')
+            print "try_mail self.info %s, %s " % (type(self.info),self.info)
+            self.info = [self.info.replace('',' ').strip(' ')]
             if self.info[0].split(' ')[-1] == '1':
                 try:  # 将sockserver超时返回的值存入邮件文件中
                     #    print 'test:%s ' % self.info
@@ -164,7 +169,7 @@ class Mail_get(Yamlconf, getTime):
                     writefile.close()
                     sa.info("%s:mailist write success!" % self.info)
 
-                    if datetime.datetime.now().hour == 9:  # 判断是否达到发邮件的时间，来读取文件，返回邮件列表
+                    if datetime.datetime.now().hour == 17:  # 判断是否达到发邮件的时间，来读取文件，返回邮件列表
                         if os.path.isfile(self.BASE_DIR + '/lib/maillist'):
                             readfile = open(self.BASE_DIR + '/lib/maillist', 'r')
                             for i in readfile:

@@ -1,0 +1,9 @@
+yy:
+  op: mod 
+  username: zengchao
+  passwd: none
+  user_mail: xx@xx.com 
+  dir:
+    /xx: r-x
+    /xx/业务组: rwx
+    

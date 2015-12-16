@@ -104,3 +104,59 @@
 [INFO] [2015-12-14 18:01:09,545] [line:57] received from 6 c 5 c d 9 d c e f d 2 d 1 0 2 1 d 4 c 9 3 9 7 1 4 d d 0 c a 1 ('192.168.9.118', 63964)
 [INFO] [2015-12-14 18:04:58,101] [line:57] received from 6 c 5 c d 9 d c e f d 2 d 1 0 2 1 d 4 c 9 3 9 7 1 4 d d 0 c a 1 ('192.168.9.118', 64280)
 [INFO] [2015-12-14 18:05:09,161] [line:57] mail send to ['chenyongzhi233@163.com']
+[INFO] [2015-12-16 15:47:13,256] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 57645)
+[INFO] [2015-12-16 15:47:23,259] [line:57] 123kT1:mailist write success!
+[INFO] [2015-12-16 15:48:07,926] [line:57] received from f d a 4 b 1 3 8 f a 1 0 f f 5 2 8 0 b a 2 f 3 c f 0 1 8 2 4 f 2 ('192.168.9.118', 57652)
+[INFO] [2015-12-16 15:48:17,928] [line:57] 123kF1:mailist write success!
+[INFO] [2015-12-16 15:48:50,463] [line:57] received from f d a 4 b 1 3 8 f a 1 0 f f 5 2 8 0 b a 2 f 3 c f 0 1 8 2 4 f 2 ('192.168.9.118', 57657)
+[INFO] [2015-12-16 15:49:00,464] [line:57] 123kF1:mailist write success!
+[ERROR] [2015-12-16 15:49:00,471] [line:67] send_mail module mail_html: local variable 'c' referenced before assignment
+[INFO] [2015-12-16 15:53:39,926] [line:57] received from f d a 4 b 1 3 8 f a 1 0 f f 5 2 8 0 b a 2 f 3 c f 0 1 8 2 4 f 2 ('192.168.9.118', 57833)
+[INFO] [2015-12-16 15:53:49,927] [line:57] 123kF1:mailist write success!
+[INFO] [2015-12-16 15:53:50,796] [line:57] mail send to ['chenyongzhi233@163.com']
+[INFO] [2015-12-16 15:55:43,842] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 57865)
+[INFO] [2015-12-16 15:55:53,845] [line:57] 123kT1:mailist write success!
+[INFO] [2015-12-16 15:55:55,296] [line:57] mail send to ['chenyongzhi233@163.com']
+[INFO] [2015-12-16 15:56:45,551] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 57881)
+[INFO] [2015-12-16 15:56:55,553] [line:57] 123kT1:mailist write success!
+[INFO] [2015-12-16 15:56:56,517] [line:57] mail send to ['chenyongzhi233@163.com']
+[INFO] [2015-12-16 16:01:19,917] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58111)
+[INFO] [2015-12-16 16:01:29,920] [line:57] 123kT1:mailist write success!
+[INFO] [2015-12-16 16:01:55,674] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58117)
+[INFO] [2015-12-16 16:02:05,677] [line:57] 123kT1:mailist write success!
+[INFO] [2015-12-16 16:03:37,374] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58142)
+[INFO] [2015-12-16 16:03:47,377] [line:57] 123kT1:mailist write success!
+[INFO] [2015-12-16 16:05:36,726] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58158)
+[INFO] [2015-12-16 16:06:04,256] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58163)
+[INFO] [2015-12-16 16:06:14,257] [line:57] 123kT1:mailist write success!
+[INFO] [2015-12-16 16:15:33,443] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58392)
+[INFO] [2015-12-16 16:15:43,444] [line:57] ['1 2 3 k T 1']:mailist write success!
+[INFO] [2015-12-16 16:16:24,595] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58414)
+[INFO] [2015-12-16 16:16:34,598] [line:57] ['1 2 3 k T 1']:mailist write success!
+[ERROR] [2015-12-16 16:16:34,605] [line:67] send_mail module mail_html: 'list' object has no attribute 'replace'
+[INFO] [2015-12-16 16:18:37,638] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58436)
+[INFO] [2015-12-16 16:18:47,641] [line:57] ['1 2 3 k T 1']:mailist write success!
+[ERROR] [2015-12-16 16:18:47,645] [line:67] send_mail module mail_html: 'list' object has no attribute 'replace'
+[INFO] [2015-12-16 16:21:22,871] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58472)
+[INFO] [2015-12-16 16:21:32,874] [line:57] ['1 2 3 k T 1']:mailist write success!
+[INFO] [2015-12-16 16:21:34,003] [line:57] mail send to ['chenyongzhi233@163.com']
+[INFO] [2015-12-16 16:22:50,131] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58504)
+[INFO] [2015-12-16 16:23:00,134] [line:57] ['1 2 3 k T 1']:mailist write success!
+[INFO] [2015-12-16 16:24:14,908] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58517)
+[INFO] [2015-12-16 16:24:24,911] [line:57] ['1 2 3 k T 1']:mailist write success!
+[INFO] [2015-12-16 16:24:25,779] [line:57] mail send to ['chenyongzhi233@163.com']
+[INFO] [2015-12-16 16:26:12,914] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58535)
+[INFO] [2015-12-16 16:26:22,914] [line:57] ['1 2 3 k T 1']:mailist write success!
+[INFO] [2015-12-16 16:26:23,967] [line:57] mail send to ['chenyongzhi233@163.com']
+[INFO] [2015-12-16 16:27:04,519] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58562)
+[INFO] [2015-12-16 16:27:14,523] [line:57] ['1 2 3 k T 1']:mailist write success!
+[ERROR] [2015-12-16 16:27:14,528] [line:67] send_mail module mail_html: empty separator
+[INFO] [2015-12-16 16:29:18,203] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58583)
+[INFO] [2015-12-16 16:29:28,233] [line:57] ['1 2 3 k T 1']:mailist write success!
+[INFO] [2015-12-16 16:29:29,026] [line:57] mail send to ['chenyongzhi233@163.com']
+[INFO] [2015-12-16 16:35:47,749] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58683)
+[INFO] [2015-12-16 16:35:57,750] [line:57] ['1 2 3 k T 1']:mailist write success!
+[INFO] [2015-12-16 16:36:00,492] [line:57] mail send to ['chenyongzhi233@163.com']
+[INFO] [2015-12-16 16:37:45,549] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58737)
+[INFO] [2015-12-16 16:37:48,915] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 58738)
+[INFO] [2015-12-16 16:37:58,917] [line:57] ['1 2 3 k T 1']:mailist write success!
