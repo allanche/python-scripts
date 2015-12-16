@@ -43,6 +43,7 @@ class Mail_get(Yamlconf, getTime):
         self.mail_postfix = y.yaml_read()['sendmail_configure']['mail_postfix']  # 发件箱的后缀
         self.ip = y.yaml_read()['server_configure']['ip_address']  # server ip
         self.sock = y.yaml_read()['server_configure']['socket']  # server socket
+        self.Sendtodate = int(y.yaml_read()['sendmaildate'][0])
         self.newmail = ''
         self.info = []
         self.endinfo = []
@@ -169,7 +170,7 @@ class Mail_get(Yamlconf, getTime):
                     writefile.close()
                     sa.info("%s:mailist write success!" % self.info)
 
-                    if datetime.datetime.now().hour == 9:  # 判断是否达到发邮件的时间，来读取文件，返回邮件列表
+                    if datetime.datetime.now().hour == self.Sendtodate:  # 判断是否达到发邮件的时间，来读取文件，返回邮件列表
                         if os.path.isfile(self.BASE_DIR + '/lib/maillist'):
                             readfile = open(self.BASE_DIR + '/lib/maillist', 'r')
                             for i in readfile:

@@ -1,10 +1,16 @@
 sendmail_configure:
   mail_host: smtp.exmail.qq.com
-  mail_user:
-  mail_pass:
+  mail_user: xx
+  mail_pass: xx
   mail_postfix: qq.com
 server_configure:
-  ip_address:
+  ip_address: 192.168.9.x
   socket: 10001
 mailto_list:
-  - xx@xx.com
+  - xx@163.com
+encryptpasswd:
+  - 533654d43a8c67af
+sendmaildate:
+  - 17
+
+

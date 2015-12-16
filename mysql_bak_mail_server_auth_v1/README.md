@@ -21,14 +21,19 @@
 * 客户端的程序需要配合客户端主机上计划任务中的备份脚本来获取位置参数。
 * 服务端程序的配置在/etc/name.yaml文件里。主要对发送邮箱和接受邮箱的配置。
 
-			sendmail_configure: 
-			  mail_host: smtp.XXX.com
-			  mail_user: username
-			  mail_pass: password
-			  mail_postfix: XXX.com
-			mailto_list:
-			  - xxx@yyy.com
-			  - aaa@bbb.com
+				sendmail_configure:            #邮件发送配置
+				  mail_host: smtp.XXX.com
+				  mail_user: username
+				  mail_pass: password
+				  mail_postfix: XXX.com
+				mailto_list:                   #邮件接收者邮箱
+				  - xxx@yyy.com
+				  - aaa@bbb.com
+				encryptpasswd:                 #加解密密码，为16位，24位或者32位都可以
+				  - 533654d43a8c67af
+				sendmaildate:                  #mysql邮件备份的每日定时发送时间
+				  - 17
+
 
 * 在server端上先进入/data/sh/mysql_bak_mail_server/目录。然后执行nohup python2.7 MailServer.py &,也可以使用screen或者supervisor来管理进程。
 
@@ -39,7 +44,7 @@
 	第二版加入磁盘IO错误检测邮件报警，客户端程序配合shell脚本传递参数。
 		标志1表示mysql备份邮件通知
 		标志2表示磁盘IO error邮件提醒
-
+* 对磁盘监控的邮件报警表现为及时性的，不会在等待某个时刻到来发送邮件。
 
 ### DOC v3 ###
 

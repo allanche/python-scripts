@@ -1,1 +1,30 @@
 
+[ERROR] [2015-12-17 16:53:54,730] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:53:55,632] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:53:56,522] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:53:57,405] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:53:58,293] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:53:59,180] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:00,091] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:01,016] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:01,927] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:02,826] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:03,746] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:04,650] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:05,542] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:06,466] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:07,372] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:08,246] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:09,134] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:10,022] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:54:11,038] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:55:14,309] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:55:15,194] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:55:16,094] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:55:16,971] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[ERROR] [2015-12-17 16:55:17,872] [line:67] SockServer module: coercing to Unicode: need string or buffer, NoneType found
+[INFO] [2015-12-17 17:05:31,424] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 60123)
+[INFO] [2015-12-17 17:05:41,440] [line:57] ['1 2 3 k T 1']:mailist write success!
+[INFO] [2015-12-17 17:06:36,203] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 60147)
+[INFO] [2015-12-17 17:06:46,210] [line:57] ['1 2 3 k T 1']:mailist write success!
+[INFO] [2015-12-17 17:06:47,480] [line:57] mail send to ['chenyongzhi233@163.com']
