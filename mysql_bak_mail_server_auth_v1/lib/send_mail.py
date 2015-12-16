@@ -169,7 +169,7 @@ class Mail_get(Yamlconf, getTime):
                     writefile.close()
                     sa.info("%s:mailist write success!" % self.info)
 
-                    if datetime.datetime.now().hour == 17:  # 判断是否达到发邮件的时间，来读取文件，返回邮件列表
+                    if datetime.datetime.now().hour == 9:  # 判断是否达到发邮件的时间，来读取文件，返回邮件列表
                         if os.path.isfile(self.BASE_DIR + '/lib/maillist'):
                             readfile = open(self.BASE_DIR + '/lib/maillist', 'r')
                             for i in readfile:
