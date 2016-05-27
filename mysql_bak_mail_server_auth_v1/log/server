@@ -27,4 +27,4 @@
 [INFO] [2015-12-17 17:05:41,440] [line:57] ['1 2 3 k T 1']:mailist write success!
 [INFO] [2015-12-17 17:06:36,203] [line:57] received from c b 2 c b e f 9 2 5 0 0 3 c 0 4 0 f c b 4 2 6 c d 8 0 4 b c 7 3 ('192.168.9.118', 60147)
 [INFO] [2015-12-17 17:06:46,210] [line:57] ['1 2 3 k T 1']:mailist write success!
-[INFO] [2015-12-17 17:06:47,480] [line:57] mail send to ['chenyongzhi233@163.com']
+[INFO] [2015-12-17 17:06:47,480] [line:57] mail send to ['@163.com']
